@@ -8,6 +8,9 @@ import matplotlib.pyplot as plt
 
 MaxVal = 2147483647
 
+#found relavant blog post:
+#http://yehar.com/blog/?p=197
+
 def clippingFunction(inSample):
 	threshold = MaxVal #maximum 24 bit output
 
@@ -73,6 +76,8 @@ def graphSignal(sampleArrs):
 		plt.axis([0, 200, -1, 1])
 
 		#testing git
+		#testing git again
+
 	
 	plt.show()
 
